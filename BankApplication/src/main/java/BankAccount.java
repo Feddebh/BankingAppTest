@@ -45,7 +45,7 @@ public class BankAccount
         char opcion = '\0';
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome " + nombreCliente);
+        System.out.println("Bienvenido, " + nombreCliente);
         System.out.println("Your Id is: " + idCliente);
         System.out.println("\n");
         System.out.println("A. Consultar saldo");
@@ -56,9 +56,9 @@ public class BankAccount
 
         do {
             System.out.println("********************************************************************");
-            System.out.println("Ingrese una opcion.");
+            System.out.println("Ingrese una opcion:");
             System.out.println("********************************************************************");
-            scanner.next().charAt(0);
+            opcion = scanner.next().charAt(0);
             System.out.println("\n");
 
             switch (opcion){
