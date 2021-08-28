@@ -1,3 +1,5 @@
+package com.main.example;
+
 import java.util.Scanner;
 
 public class BankAccount
